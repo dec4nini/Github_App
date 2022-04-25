@@ -160,13 +160,13 @@ a {
 
 }
 
-conten_rigth_title{
+.conten_rigth_title{
+  position: absolute;
   width: 622px;
   height: 120px;
-  left: 730px;
-  top: 730px;
+  top: 70vh;
 
-  margin: auto;
+  margin-left: 10vw;
 
   font-family: 'Mulish';
   font-style: normal;
