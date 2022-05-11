@@ -27,7 +27,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
 
   <body>
@@ -40,10 +40,23 @@
       <div class="content_left_user">
         <h2>Buscar usuário</h2>
         <p>Crie sua conta atravéz do seu usuário Github</p>
-        <form method="GET" action="">
+        <form
+          action="./users.html"
+          method="GET"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
           <div class="username_box">
             <span class="username_icon">account_circle</span>
-            <input class="username_input" type="text" placeholder="@username" />
+            <input
+              name="user_login"
+              class="username_input"
+              type="text"
+              placeholder="@username"
+            />
           </div>
           <br />
           <input class="username_btn" value="Cadastrar" type="submit" />
@@ -65,5 +78,6 @@
         Gerencie e adicione tags ao seus repositórios favoritos.
       </p>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>
